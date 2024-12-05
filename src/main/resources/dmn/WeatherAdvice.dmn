@@ -45,7 +45,7 @@
     <dmn:informationRequirement id="_A50E0157-B80E-4B3E-86C4-3AF61234F563">
       <dmn:requiredInput href="#_B762626A-4139-4418-8826-433586ABDE57" />
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_37D35401-A796-414F-8035-A88A5E288392" hitPolicy="FIRST" preferredOrientation="Rule-as-Row">
+    <dmn:decisionTable id="_37D35401-A796-414F-8035-A88A5E288392" hitPolicy="FIRST" preferredOrientation="Rule-as-Row" label="WeatherAdvice" typeRef="string">
       <dmn:input id="_8F781C6D-39D3-4D24-A8FB-1892FCC4114F">
         <dmn:inputExpression id="_697F23BD-59D6-434C-B653-886C4425068F" typeRef="number">
           <dmn:text>Weather.rainForecast</dmn:text>
@@ -91,7 +91,7 @@
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_BCCC70D2-86C9-440C-A338-1845DA51223F">
-          <dmn:text>&quot;Cold day. Take a coat.&quot;</dmn:text>
+          <dmn:text>&quot;Cold day today. Take a warm coat.&quot;</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text></dmn:text>
