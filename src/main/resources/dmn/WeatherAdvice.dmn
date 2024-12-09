@@ -91,7 +91,7 @@
           <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_BCCC70D2-86C9-440C-A338-1845DA51223F">
-          <dmn:text>&quot;Cold day today. Take a coat.&quot;</dmn:text>
+          <dmn:text>&quot;Cold day today. Take a warm coat.&quot;</dmn:text>
         </dmn:outputEntry>
         <dmn:annotationEntry>
           <dmn:text></dmn:text>
